@@ -6,6 +6,7 @@ body {
 }
 
 
+.navGrid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: 
@@ -69,6 +70,7 @@ h1 {
     
 }
 
+.flexContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
