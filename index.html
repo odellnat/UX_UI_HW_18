@@ -13,87 +13,96 @@
 <body>
 
     
-    
-    <section id="topBarGrid">
-    <div id=nameContainer>
-        <div id="firstName">
+<!-- Top Nav coded using CSS gric-->
+ <section id=primaryNav>
+    <div class="navGrid">
+        <div class="firstName">
           <p>NATHAN</p>
         </div>
-        <div id="lastName">
+        <div class="lastName">
           <p>ODELL</p>
         </div>
-    </div>
-    <div id="logoImage">
-      <img src="images/compass-purpl2.png" width="50" height="50">
+    <div class="logoImage">
+      <img src="images/compass-purpl2.png" width="30" height="30">
     </div>
     
-    <div id="topNav">
+    <div class="topNav">
       <p>work</p>
       <p>play</p>
       <p>resume</p>
       <p>contact</p>
     </div>
-  </section>
+   </div>
+</section>
  
     
-    <section id="mySkills">
+<!--
+      <section id="heroSection">
+    <div id="heroShot">
+    </div>
+    <div id="heroText">
+        <p>I’m a designer and builder with a background in UX, learning design, and product management. <br> I love digging deep into problems and building simple solutions. I have over 15 years experience in solving business problems and building market-leading products through collaboration, curiosity, creativity, and empathy.</p>
+    </div>
+  </section>
+-->
+    
+<!-- My UX Skills section coded using CSS flex-->
+    <section class="mySkills">
         <h1>My Skills</h1>
-        <div id="skillsFlex">
-            <div class="skillsChild">
-                <img src="images/research.png">
+        <div class="flexContainer">
+            <div class=ms1>
+                <img class="imgChild" src="images/research.png" width="160px" height="160px">
                 <h3>user research</h3>
                 <p>I blend qualitative and quantitative research to ferret out insights from  conversations and reveal patterns from data. </p>
             </div>
             
-            <div class="skillsChild">
-                <img src="images/empathy.png">
+            <div class=ms2>
+                <img class="imgChild" src="images/empathy.png" width="160px" height="160px">
                 <h3>user empathy</h3>
                 <p>Role play is at the heart of empathizing with our users. If  we cannot think like them, we cannot design for them.</p>
             </div>
-        </div>
-    
-            <div class="skillsChild">
-                <img src="images/research.png">
-                <h3>strategy</h3>
+           
+            <div class=ms3>
+                <img class="imgChild" src="images/research.png" width="160px" height="160px">
+                <h3>product strategy</h3>
                 <p>Nothing is more fun than coming up with feature ideas, but nothing is more important than editing them down.</p>
             </div>
+        </div>
     </section>
     
     
-    <section id="myWork">
+    <section class="myWork">
         <h1>My Work</h1>
-        <div class="workCard" id="realMeals">
-            <div class="workPhoto">
-                <img src="images/realmeals-img.png">
+        <div class="flexContainer2">
+            <div class=mw1>
+                <img src="images/realmeals-img.png" height="200">
+                <h3>RealMeals</h3>
+                <p>Practical recipes for families and meal prep.</p>
+                <button>Download</button>
             </div>
-            <div class="workCopy">
-                <h3>Real Meals</h3>
-                <p>Practical recipes for families, batch cooks, and meal preppers.</p>
-                <button></button>
-            </div>
-        </div>
-    
-        <div class="workCard" id="nyCares">
-            <div class="workPhoto">
-                <img src="images/nycares-img.png">
-            </div>
-            <div class="workCopy">
-                <h3>New York Cards</h3>
+            
+            <div class=mw2>
+                <img src="images/nycares-img.png" height="200">
+                <h3>NYCares</h3>
                 <p>A nonprofit site redesign to clarify and comfort.</p>
-                <button></button>
+                <button>Download</button>
             </div>
-        </div>
-    
-        <div class="workCard" id="spry">
-            <div class="workPhoto">
-                <img src="images/spry-img.png">
-            </div>
-            <div class="workCopy">
+        
+            <div class=mw3>
+                <img src="images/spry-img.png" height="200">
                 <h3>Spry</h3>
                 <p>Micro workouts for busy bodies.</p>
-                <button></button>
+                <button>Download</button>
+            </div>
+            
+            <div class=mw4>
+                <img src="/images/Animationmobile.gif" height="200">
+                <h3>Energy.gov</h3>
+                <p>A redesign to put the spark back into the Dept of Energy.</p>
+                <button>Download</button>
             </div>
         </div>
+        <h3>View All Projects</h3>
     
     </section>
     
