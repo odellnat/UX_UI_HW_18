@@ -60,6 +60,36 @@ body {
     margin-bottom: 0;
     }
 
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #424464;
+}
+
+
+.heroShot {
+    display: flex;
+    margin-left: 110px;
+}
+
+.heroText {
+    align-self: center;
+}
+
+.heroText > p {
+    color: aliceblue;
+    margin-left: 7em;
+    margin-right: 7em;
+    justify-self: center;
+    align-self: center;
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+    line-height: 3;
+    }
+
+
+
 h1 {
     font-family: "Quicksand", sans-serif;
     margin-left: 30px;
