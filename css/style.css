@@ -8,7 +8,7 @@ body {
 
 .navGrid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 31% 69%;
   grid-template-areas: 
       "firstName logoImage"
       "lastName topNav";
@@ -65,24 +65,27 @@ body {
   flex-direction: row;
   align-items: stretch;
   background-color: #424464;
+  max-height: 350.6px;
 }
 
-
-.heroShot {
+.heroContainer .fb1 {
     display: flex;
-    margin-left: 110px;
-}
+    flex: 33%;
+       }
 
-.heroText {
-    align-self: center;
-}
+.heroContainer > .fb1 > .heroImage {
+    margin: auto;
+  }
 
-.heroText > p {
+.heroContainer .fb2 {
+    display: flex;
+    flex: 67%;
+    padding: 3em;
+            }
+
+
+.heroContainer p {
     color: aliceblue;
-    margin-left: 7em;
-    margin-right: 7em;
-    justify-self: center;
-    align-self: center;
     font-family: "Cairo", sans-serif;
     font-weight: 100;
     line-height: 3;
