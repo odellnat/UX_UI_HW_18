@@ -65,7 +65,9 @@ body {
   flex-direction: row;
   align-items: stretch;
   background-color: #424464;
-  max-height: 350.6px;
+  border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    max-height: 350.6px;
 }
 
 .heroContainer .fb1 {
