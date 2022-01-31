@@ -172,7 +172,7 @@ h1 {
 }
 
 .mw4 {
-    color: black;
+    color: aliceblue;
     background-color: #B3B4C1;
     
 }
@@ -190,6 +190,10 @@ h3 {
     margin: 5px;
     text-align: center;
     }
+
+.viewAll {
+    margin-top: 1em;
+}
 
 @media only screen and (max-width: 600px) {
     .flexContainer {
